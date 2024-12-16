@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(at left top,  #f7bf71, transparent), 
+                radial-gradient(at top right, #bc7de7, transparent);
+}
+
+:root{
+    font-family: "Exo 2", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.page{
+    padding: 3rem 2rem;
+}
+
+.page h1{
+    color: #2a3a85;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.page > div:not(.page > div:last-of-type){
+    padding: 2rem 0;
+    border-bottom: 2px solid #2a3a85;
+}
